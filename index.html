@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+
+    <link
+      rel="icon"
+      type="image/svg+xml"
+      href="./assets/images/small-logo.png"
+    />
+    <title>Realtime Innovation</title>
+    <link href="./assets/css/style.css" rel="stylesheet" />
+  </head>
+  <body>
+    <!-- header -->
+    <header>
+      <div class="navbar">
+        <img class="logo" src="./assets/images/navbar-logo.png" />
+        <div class="nav">
+          <a href="#home" class="active">Home</a>
+          <a href="#products">Products</a>
+          <a href="#about">About</a>
+          <a href="#career">Career</a>
+          <a href="#contact">Contact</a>
+        </div>
+        <button onclick="toggleMobileNav()">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="30"
+            height="30"
+            fill="currentColor"
+            className="bi bi-list"
+            viewBox="0 0 16 16"
+            id="navIcon"
+          >
+            <path
+              fillRule="evenodd"
+              d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5"
+            />
+          </svg>
+        </button>
+      </div>
+    </header>
+    <div class="mobile-nav" id="mobile-nav">
+      <a href="#home">Home</a>
+      <a href="#products">Products</a>
+      <a href="#about">About</a>
+      <a href="#career">Career</a>
+      <a href="#contact">Contact</a>
+    </div>
+    <!-- hero section -->
+    <section class="home-container" id="home">
+      <div class="text-container">
+        <h1>Build <span>Innovation Solutions</span> for a better tomorrow</h1>
+        <h2>
+          We focus on creating innovative products that empower people to live
+          better meaningful lives
+        </h2>
+      </div>
+      <img src="./assets/images/hero-background.jpeg" alt="Hero Background" />
+    </section>
+    <!-- products -->
+    <section class="products-container" id="products">
+      <div class="heading">
+        <h3>Our Products</h3>
+        <h2>What We Do</h2>
+      </div>
+      <div class="card-container">
+        <div class="card">
+          <img src="./assets/images/me_daily.png" alt="Mevolve Daily" />
+          <h3>Mevolve Daily</h3>
+          <h6>Mobile App, Tablet App, Web</h6>
+          <p>Take charge and unlock potential by evolving daily with Mevolve</p>
+        </div>
+        <div class="card">
+          <img src="./assets/images/me_ai.png" alt="Mevolve AI" />
+          <h3>Mevolve AI</h3>
+          <h6>Mobile App, Tablet App, Web</h6>
+          <p>Supercharge Your Growth Embrace AI Your Personal Development</p>
+        </div>
+        <div class="card">
+          <img src="./assets/images/me_junior.png" alt="Mevolve Junior" />
+          <h3>Mevolve Junior</h3>
+          <h6>Mobile App, Tablet App, Web</h6>
+          <p>
+            Empower Kids with right tools to build strong foundation for a life
+          </p>
+        </div>
+      </div>
+    </section>
+    <!-- about section -->
+    <section class="about-container" id="about">
+      <div class="heading">
+        <h3>About</h3>
+        <h2>Our Culture and Values</h2>
+      </div>
+      <p class="desc">
+        We nurture a culture based on strong values and positive behaviors.
+      </p>
+      <div class="content">
+        <div class="item-container">
+          <div class="item">
+            <img src="./assets/images/ic-integrity.png" alt="Integrity Image" />
+            <div class="text">
+              <h4>Integrity First</h4>
+              <p>Uphold honesty and ethical standards in all actions</p>
+            </div>
+          </div>
+          <div class="item">
+            <img src="./assets/images/ic-proactive.png" alt="Proactive Image" />
+            <div class="text">
+              <h4>Be Proactive</h4>
+              <p>Take initiative and seize opportunity</p>
+            </div>
+          </div>
+          <div class="item">
+            <img
+              src="./assets/images/ic-supportive.png"
+              alt="Supportive Image"
+            />
+            <div class="text">
+              <h4>Be Supportive</h4>
+              <p>Foster collaboration and offer support</p>
+            </div>
+          </div>
+          <div class="item">
+            <img
+              src="./assets/images/ic-responsive.png"
+              alt="Responsive Image"
+            />
+            <div class="text">
+              <h4>Be Responsible</h4>
+              <p>Embrace diversity and value different perspectives</p>
+            </div>
+          </div>
+          <div class="item">
+            <img src="./assets/images/ic-honesty.png" alt="Honesty Image" />
+            <div class="text">
+              <h4>Be Honest</h4>
+              <p>Always treat others with dignity and respect</p>
+            </div>
+          </div>
+        </div>
+        <img
+          class="graphic"
+          src="./assets/images/AboutGraphic.png"
+          alt="About Graphic"
+        />
+      </div>
+    </section>
+    <!-- carrer section -->
+    <section class="career-container" id="career">
+      <div class="heading">
+        <h3>Career</h3>
+        <h2>Join Our Team</h2>
+      </div>
+      <div class="card-container">
+        <div class="card">
+          <img src="./assets/images/frontend.png" alt="Front End Developer" />
+          <h3>Front End Developer</h3>
+          <ul>
+            <li>Angular</li>
+            <li>Firebase</li>
+          </ul>
+          <button>Apply</button>
+        </div>
+        <div class="card">
+          <img src="./assets/images/ui-ux.png" alt="UI/UX Developer" />
+          <h3>UI/UX Developer</h3>
+          <ul>
+            <li>Figma</li>
+            <li>Canva</li>
+          </ul>
+          <button>Apply</button>
+        </div>
+        <div class="card">
+          <img src="./assets/images/flutter.png" alt="Flutter Developer" />
+          <h3>Flutter Developer</h3>
+          <ul>
+            <li>Flutter</li>
+            <li>Firebase</li>
+          </ul>
+          <button>Apply</button>
+        </div>
+        <div class="card">
+          <img src="./assets/images/qa-automation.png" alt="QA Automation" />
+          <h3>QA Automation</h3>
+          <ul>
+            <li>Appium</li>
+            <li>Typescript</li>
+          </ul>
+          <button>Apply</button>
+        </div>
+      </div>
+    </section>
+    <!-- contact section -->
+
+    <section class="contact-container" id="contact">
+      <div class="heading">
+        <h3>Contact</h3>
+        <h2>Connect With Us</h2>
+      </div>
+      <a href="mailto:hello@realtime-innovations.com" class="link">
+        <img
+          class="email"
+          src="./assets/images/formkit_email.png"
+          alt="Email Icon"
+        />
+        hello@realtime-innovations.com
+      </a>
+      <a href="#">
+        <img src="./assets/images/linkedin.png" alt="LinkedIn Icon" />
+      </a>
+    </section>
+
+    <!-- footer  -->
+    <footer class="footer-container">
+      <div class="container">
+        <p>Dublin, IE</p>
+        <div class="logo">
+          <img src="./assets/images/small-logo.png" alt="Logo" />
+        </div>
+        <p class="copyright">
+          All copyrights are reserved by Realtime Innovative
+        </p>
+      </div>
+    </footer>
+    <script>
+      function toggleMobileNav() {
+        var x = document.getElementById("mobile-nav");
+        var icon = document.getElementById("navIcon");
+        if (x.style.display === "flex") {
+          x.style.display = "none";
+          icon
+            .querySelector("path")
+            .setAttribute(
+              "d",
+              "M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5"
+            );
+        } else {
+          x.style.display = "flex";
+          icon
+            .querySelector("path")
+            .setAttribute(
+              "d",
+              "M2.146 2.854a.5.5 0 1 1 .708-.708L8 7.293l5.146-5.147a.5.5 0 0 1 .708.708L8.707 8l5.147 5.146a.5.5 0 0 1-.708.708L8 8.707l-5.146 5.147a.5.5 0 0 1-.708-.708L7.293 8z"
+            );
+        }
+      }
+
+      window.addEventListener("scroll", () => {
+        console.log("Scroll event triggered");
+
+        const sections = document.querySelectorAll("section");
+        const scrollPosition = window.scrollY + 300;
+
+        let currentSectionId = "";
+        sections.forEach((section) => {
+          const sectionTop = section.offsetTop;
+          const sectionHeight = section.clientHeight;
+          if (
+            scrollPosition >= sectionTop &&
+            scrollPosition < sectionTop + sectionHeight
+          ) {
+            currentSectionId = "#" + section.id;
+          }
+        });
+
+        const navLinks = document.querySelectorAll(".nav a");
+        navLinks.forEach((link) => {
+          const href = link.getAttribute("href");
+          console.log("Link href:", href);
+          link.classList.remove("active");
+          if (href && href === currentSectionId) {
+            link.classList.add("active");
+          }
+        });
+      });
+    </script>
+  </body>
+</html>
