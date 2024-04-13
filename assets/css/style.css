@@ -2,7 +2,6 @@ html,
 body {
   margin: 0;
   padding: 0;
-  overflow-x: hidden;
   box-sizing: border-box;
   margin: auto;
   background-color: black;
@@ -18,21 +17,30 @@ body {
 
 /* header */
 header {
-  display: flex;
+  /* display: flex;
   align-items: center;
-  justify-content: center;
   background-color: #000000;
-  padding: 30px 20px;
-  position: fixed; /* Make the header sticky */
-  top: 0; /* Position it at the top of the viewport */
-  width: 100%; /* Occupy the full width of the viewport */
-  z-index: 1000; /* Ensure it appears above other content */
+  padding: 1rem 0; */
+  /* position: fixed; Make the header sticky */
+  /* top: 0; Position it at the top of the viewport */
+  /* width: 100%; Occupy the full width of the viewport */
+  /* z-index: 1000; Ensure it appears above other content */
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  background-color: #000000;
+  padding: 1rem 5rem;
+
+  @media (max-width: 768px) {
+    padding: 1rem;
+  }
 }
 .navbar {
+  max-width: 1200px;
   display: flex;
   flex-direction: row;
   width: 100%;
-  max-width: 1200px;
+  margin: 0 auto;
   align-items: center;
   justify-content: space-between;
 
@@ -127,7 +135,6 @@ header {
   position: relative;
   display: flex;
   justify-content: center;
-  margin-top: 100px;
 
   .text-container {
     max-width: 1200px;
@@ -156,6 +163,7 @@ header {
     font-size: 1.5rem;
     max-width: 600px;
     line-height: 140%;
+    margin-top: 5px;
     z-index: 2;
   }
 
@@ -240,7 +248,7 @@ header {
 
 .card {
   background: #22252d;
-  padding: 4rem 2rem;
+  padding: 3rem;
   border-radius: 1rem;
   flex-grow: 1;
   display: flex;
