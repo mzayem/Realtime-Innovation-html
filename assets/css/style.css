@@ -300,6 +300,7 @@ header {
   flex-direction: column;
   gap: 2rem;
   align-items: center;
+  overflow:hidden;
 
   h3 {
     color: #f1ff28;
